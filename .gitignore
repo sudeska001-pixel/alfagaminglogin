@@ -13,6 +13,11 @@
 # testing
 /coverage
 
+# Cloudflare/OpenNext
+.open-next
+.wrangler
+.dev.vars
+
 # next.js
 /.next/
 /out/
