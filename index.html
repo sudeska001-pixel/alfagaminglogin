@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlfaGamingLogin | Portal Gamer Indonesia</title>
+    <meta name="description" content="Portal login resmi AlfaGaming. Rasakan pengalaman gaming premium, server anti-lag, dan gabung dengan komunitas esports terbesar di Indonesia.">
+    <!-- Google Fonts: Orbitron for gaming feel, Inter for text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alfagaminglogin.com/">
+    <meta property="og:title" content="AlfaGamingLogin | Portal Gamer Indonesia">
+    <meta property="og:description" content="Masuk ke arena esports terbesar. Server anti-lag, komunitas solid, dan turnamen berhadiah jutaan rupiah.">
+    <meta property="og:image" content="assets/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="AlfaGamingLogin | Portal Gamer Indonesia">
+    <meta property="twitter:description" content="Masuk ke arena esports terbesar. Server anti-lag, komunitas solid, dan turnamen berhadiah jutaan rupiah.">
+    <meta property="twitter:image" content="assets/images/og-image.png">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Welcome Modal -->
+    <div class="modal-overlay" id="welcomeModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <div class="modal-body">
+                <div class="modal-badge">✨ BONUS PENGGUNA BARU</div>
+                <h2 class="modal-title">SELAMAT DATANG DI <span class="highlight">ALFAGAMING</span></h2>
+                <p class="modal-desc">Klaim bonus eksklusif kamu sekarang dan mulai petualangan esports dengan modal maksimal!</p>
+                
+                <div class="modal-bonus-box">
+                    <div class="bonus-item">
+                        <span class="bonus-value">100%</span>
+                        <span class="bonus-label">Bonus Deposit</span>
+                    </div>
+                    <div class="bonus-item">
+                        <span class="bonus-value">VIP</span>
+                        <span class="bonus-label">Akses Server</span>
+                    </div>
+                </div>
+
+                <div class="modal-actions">
+                    <a href="https://t.ly/reg.alfa" class="btn btn-primary btn-large pulse-btn" target="_blank" rel="noopener noreferrer">KLAIM SEKARANG</a>
+                    <a href="https://t.ly/alfa-sukses" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Sudah punya akun? Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Effects -->
+    <div class="bg-effects">
+        <div class="glow-orb red-orb"></div>
+        <div class="glow-orb blue-orb"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">AlfaGaming<span class="highlight">Login</span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="#features">Fitur</a>
+                <a href="https://t.ly/reg.alfa" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Daftar</a>
+                <a href="https://t.ly/alfa-sukses" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Login</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    <span>SERVER ESPORTS INDONESIA #1</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    MASUK KE <span class="text-gradient">ARENA</span><br>
+                    DAN JADILAH <span class="text-glow">JUARA</span>
+                </h1>
+                
+                <p class="hero-desc">
+                    Portal login resmi untuk mengakses ribuan game premium, turnamen eksklusif, dan komunitas gamer paling aktif se-Indonesia. Buktikan skill-mu sekarang!
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="https://t.ly/alfa-sukses" class="btn btn-large btn-primary pulse-btn" target="_blank" rel="noopener noreferrer">
+                        <span>LOGIN SEKARANG</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="https://t.ly/reg.alfa" class="btn btn-large btn-secondary" target="_blank" rel="noopener noreferrer">
+                        BUAT AKUN BARU
+                    </a>
+                </div>
+
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <h3 class="stat-number">100K+</h3>
+                        <p class="stat-label">Gamer Aktif</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">99.9%</h3>
+                        <p class="stat-label">Uptime Server</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number">24/7</h3>
+                        <p class="stat-label">Support Cepat</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <!-- Placeholder for character or gaming element -->
+                <div class="floating-element character"></div>
+                <div class="floating-element element-1"></div>
+                <div class="floating-element element-2"></div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>MENGAPA MEMILIH <span class="highlight">ALFAGAMING</span>?</h2>
+                    <p>Fasilitas VIP untuk pengalaman bermain maksimal tanpa hambatan.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon icon-speed">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                        </div>
+                        <h3>Server Anti-Lag</h3>
+                        <p>Infrastruktur server lokal Indonesia menjamin ping stabil di bawah 20ms untuk kompetitif tingkat tinggi.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon icon-security">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <h3>Keamanan Super</h3>
+                        <p>Sistem enkripsi end-to-end menjaga data akun dan aset in-game Anda tetap aman 100%.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon icon-community">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <h3>Komunitas Solid</h3>
+                        <p>Temukan teman mabar, bentuk tim esports, dan diskusi strategi di forum eksklusif kami.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon icon-reward">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                        </div>
+                        <h3>Turnamen & Hadiah</h3>
+                        <p>Ikuti turnamen mingguan dengan total prizepool puluhan juta rupiah khusus member aktif.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">AlfaGaming<span class="highlight">Login</span></span>
+                <p>Platform gaming dan esports nomor satu di Indonesia.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://t.ly/alfa.vip" target="_blank" rel="noopener noreferrer">Syarat & Ketentuan</a>
+                <a href="https://t.ly/alfa.vip" target="_blank" rel="noopener noreferrer">Kebijakan Privasi</a>
+                <a href="https://t.ly/alfa.vip" target="_blank" rel="noopener noreferrer">Hubungi Kami</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> AlfaGamingLogin. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
